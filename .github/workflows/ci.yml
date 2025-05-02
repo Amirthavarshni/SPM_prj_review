@@ -14,7 +14,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-     - name: Install dependencies
+  - name: Install dependencies
   run: npm install
-  working-directory: ./SPM_prj_review
 
